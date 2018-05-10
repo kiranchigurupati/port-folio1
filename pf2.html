@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color:white;
+    padding:20px;
+    font-family: Arial;
+    display:flex;
+   flex-wrap:wrap;
+}
+
+
+.main {
+    max-width:1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px-16px;
+}
+.row,
+.row > .column {
+    padding: 8px;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    background-color:skyblue;
+    padding:10px;
+   
+}
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+
+<div class="main">
+<h1>PORTFOLIO</h1>
+<hr>
+
+<h2>NAMES</h2>
+<p>List of movies</p>
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Agny.jpg" alt="agnyathaavasi" style="width:100%">
+      <a href="https://en.wikipedia.org/wiki/Agnyaathavaasi"><h3>Agnyathavaasi</h3></a>
+      <p>Agnyaathavaasi ( lit. Prince in exile) is a 2018 Indian Telugu-language film directed by Trivikram Srinivas and starring Pawan Kalyan .</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="tp1.jpg" alt="tholiprema" style="width:100%">
+      <a href="https://en.wikipedia.org/wiki/Tholi_Prema_(2018_film)"><h3>Toliprema</h3></a>
+      <p>Tholi Prema is a 2018 Indian Telugu language romantic comedy film.It is directed by debutant Venky Atluri and Sri Venkateswara Cinema.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="arj1.jpg" alt="Arjunreddy" style="width:100%">
+      <a href="https://en.wikipedia.org/wiki/Arjun_Reddy"><h3>Arjunreddy</h3></a>
+      <p>Arjun Reddy. Arjun Reddy is a 2017 Indian Telugu-language drama film written and directed by Sandeep Vanga.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="rang1.jpg" alt="rangasatalam" style="width:100%">
+      <a href="https://en.wikipedia.org/wiki/Rangasthalam"><h3>Rangastalam</h3></a>
+      <p>Rangasthalam  is a 2018 Indian Telugu action drama film directed by Sukumar and produced by banner Mythri Movie Makers.</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+<div class="column">
+  <div class="content">
+   <img src="cpt.jpg" alt="Captain america" style="width:100%">
+       <a href="https://en.wikipedia.org/wiki/Captain_America"><h3>Captain america</h3></a>
+         <p>Captain America is a fictional character appearing published by Marvel Comic the character first appeared in Captain America .</p>
+      </div>
+
+
+</div>
+</body>
+</html>
